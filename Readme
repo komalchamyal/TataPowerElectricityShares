@@ -1,0 +1,39 @@
+##################### Electricity Bill Splitter Program (PYTHON) for TATA POWER BILLS ##########################
+
+1) Example Inputs (From the bill):
+
+-  Total bill = 3924
+-  Units amount = 2844
+-  Total units of month = 622
+-  Units breakup:
+      Rs.3 - 218 units
+      Rs.4.5 - 218 units
+      Rs.6.5 - 186 units
+-  No of flatmates - 3
+-  Individual Units of flatmates:
+      Person 1 - 81 units
+      Person 2 - 205 units
+      Person 3 - 336 units
+      
+      
+      
+2) Understanding of the Bill Splitter Program:
+
+  -Based on given inputs the program will automatically calculate the tax levied on units amount and display it.
+  -The common area units which the flatmates did not keep track of will be also calculated and distributed equally amongst the flatmates as their extra units.
+  -The total amount is calculated. For example, 
+      Person 1 units = 81
+      Rs.3 units = 218/3 = 72; Amount = 72*3 = Rs.216 (81-72=9 units left to calculate now)
+      Rs. 4.5 units = 218/3 = 72; Amount = 9*4.5 = Rs. 40.5
+      Total amount = Rs 256.5
+      
+      Person 2 units = 205
+      Rs. 3 units = 72*3 = Rs. 216; Units left = 205-72 = 133
+      Rs. 4.5 units = (218-9)/(3-1) = 104.5 units * 4.5 = Rs. 470.25; Units left = 133- 104.5 = 28.5
+      Rs. 6.5 units = 28.5*6.5 = 185.25
+      
+      and so on. 
+  -The tax will be added on individual units and final amount will be shown.
+
+    
+############################# MADE BY: KOMAL CHAMYAL #######################################
